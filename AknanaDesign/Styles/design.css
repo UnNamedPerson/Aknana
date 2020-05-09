@@ -1,0 +1,128 @@
+/* .designsContainer a div{
+     width: 200px;
+     width: 100%;
+     height: 200px;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-color: gray;
+   } */
+
+/* .imageContainer{
+  height: 200px;
+  background-repeat: no-repeat;
+  float: left;
+} */
+
+.designsContainer a div{
+  /* width: 200px; */
+  width: 100%;
+  height: 300px;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: gray; */
+}
+
+/*  */
+section.gallerySection {
+  width: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* cursor: pointer; */
+}
+
+#imgContainer{
+  position: absolute;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: grey; */
+  width: 100%;
+  height: 100px;
+}
+
+.imageContainer{
+  top:100px;
+  position: absolute;  
+  background-color: transparent;
+  width:400px;
+  height: 100px;
+  /* right:45%; */
+}
+
+#gallerySection{
+  margin: 0 20vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 10px;
+}
+
+
+/* the section that is holding the image, title, and describtion */
+/* #gallerySection{
+  padding: 15px;
+  float: left;
+  width: 44.99999%;
+} */
+/* the text inside the section and under the image */
+.galleryText{
+  padding: 15px;
+  text-align: center;
+}
+
+.hiddenInput{
+  position: absolute;
+  /* width: 100%; */
+  height: 100px;
+  opacity: 0;
+  /* background-size: cover; */
+}
+
+.gallerySection{
+  top: 550px;
+  position: relative;
+    margin-top: 100px;
+    /* margin-top: 20px; */
+    margin-left: 20px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 20%;
+  }
+
+  .miniDesignContainer{
+    position: absolute;  
+    background-color: transparent;
+    width:200px;
+    height: 90px;
+    top:200px;
+    right:45%;
+  }
+
+  .dropChoice{
+    text-align: right;
+  }
+
+  .dropButton{
+    text-align: right;
+  }
+  .dropContainer{
+    text-align: right;
+  }
+  .dropDown{
+    text-align: right;
+  }
+
+/* the text inside the cart page*/
+.cartText{
+  grid-area: cartText;
+  padding: 15px;
+  height: 100px;
+  width: auto;
+  text-align: center;
+  float: right;
+}

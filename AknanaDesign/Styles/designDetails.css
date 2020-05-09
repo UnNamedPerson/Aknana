@@ -1,0 +1,85 @@
+.thumbnailContainer{
+     position: absolute;
+     margin-top: 170px;
+     right: 37%;
+   }
+   
+   /* styling for the small containers that are under the details container */
+   .miniDetailsContainer{
+     top:200px;
+     position: absolute;  
+     background-color: transparent;
+     width:500px;
+     height: 180px;
+     right:45%;
+     margin-right: 5px;
+   }
+
+   .detailsContainer{
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     /* background-color: grey; */
+     width: 100%;
+     height: 350px;
+     /* top:260px; */
+     /* right:35%; */ 
+   }
+
+
+   #miniDetailsContainer1{
+     position: relative;
+     /* top:300px; */
+     right:-150px;
+     /* height: 30px; */
+   }
+     
+   #miniDetailsContaine2{
+      position: relative;
+      top:-52px;
+     right:0px; 
+     /* height: 30px; */
+   }
+   
+   #miniDetailsContaine3{
+     position: relative;
+     top:-55px;
+     right:-150px; 
+   }
+   
+   #miniDetailsContaine4{
+     position: relative;
+     top:-110px;
+     right:0px; 
+   }
+   
+   #miniDetailsContaine5{
+     position: relative;
+     top:-110px;
+     right:0px; 
+     width: 300px;
+   }
+
+   .miniDetailsThumbNail{
+     position: relative;
+     width: 125px;
+     height:105px;
+     /* float: left; */
+   
+     margin-left: 12px;
+     margin-top: 10px;
+     display: grid;
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     left:45%;
+   }
+   .cartButtonContainer{
+     position: absolute;
+     top:700px;
+     left: 250px;
+     padding: 20px;
+     width:250px;
+     margin-top: 15px;
+     /* color: rgb(105, 193, 245); */
+   }

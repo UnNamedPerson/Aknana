@@ -1,0 +1,23 @@
+.formBox{
+     margin: 5% 24% ;
+     padding: 15px;
+     /* box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1); */
+}
+
+.signupForm{
+     position: relative;
+     margin: 4% 35% 0;
+     padding: 5px;
+     margin-top: 170px;
+     padding-top: 20px;
+     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.35);
+     width: 280px;
+     text-align: center;
+     left: 3%;
+}
+
+.signupButton{
+     /* padding-top: 4px; */
+     /* padding: 10px; */
+     margin-top: 10px;
+}

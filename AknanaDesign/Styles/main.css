@@ -1,0 +1,489 @@
+@keyframes cf4FadeInOut {
+  0% {
+    opacity: 1;
+  }
+  17% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  92% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#cf4a img:nth-of-type(1) {
+  animation-delay: 30s;
+}
+
+#cf4a img:nth-of-type(2) {
+  animation-delay: 20s;
+}
+
+#cf4a img:nth-of-type(3) {
+  animation-delay: 10s;
+}
+
+#cf4a img:nth-of-type(4) {
+  animation-delay: 0;
+}
+   
+#cf4a img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* size: cover; */
+  animation: cf4FadeInOut 40s infinite;
+}
+
+
+
+
+section{
+    width: 100%;
+    height: 100%;
+}
+
+.sec1{
+  position: absolute;
+    background-color: transparent;
+    /* padding: 0px; */
+    top: 0%;
+    left: 0px;
+    z-index: 0.9;
+    width: 100%;
+    height: 95px;
+    background-color: white; 
+    border: none;
+}
+
+/* section.sec1{
+    background: url(Aknana_logo.png);
+} */
+
+.homePage{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    /* pointer-events: none;  */
+    background-color: transparent; 
+    /* box-shadow: none; */
+    border: none;
+    right: 40px;
+    top: -12px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.topBar{
+    position: absolute;
+    width: 100%;
+    height: 44px;
+    left: 0px;
+    /* background-color: skyblue; */
+    /* background-color: rgba(116, 116, 116, 0.8); */
+    /* border-top: 1px solid rgba(255 ,255, 255, 1); */
+    /* border-bottom: 0px solid rgba(255 ,255, 255, 1); */
+
+    /* uncomment the sticky topbar stick to its position regardless of the scroll*/   
+    /* position: sticky; */
+    top: 11.6%;
+    /* right: 0px; */
+    background-color: rgba(255, 255, 255, 1);
+    margin-bottom: 20px;
+}
+
+
+.loginAndSignup2{
+    padding: 10 0px;
+    position: relative;
+    float: left;
+    display: flex;
+    margin: 10;
+}
+
+.loginAndSignup{
+  display: flex;
+  padding: 10 0px;
+  float: left;
+  margin: 10;
+  background-color: transparent;
+  /* overflow: hidden; */
+  border: none;
+  /* outline: none; */
+}
+
+.normal{
+    display: flex;
+    padding: 10 0px;
+    float: right;
+    margin: 10;
+}
+
+/* .normal:hover{
+  background-color: gray;
+} */
+
+/* .upper{
+    background-image: url("../Aknana.jpg");
+} */
+
+nav ul li{
+    padding-right: 20px;
+    /* padding-bottom: 10px; */
+    list-style: none;
+    
+}
+
+.parallax2{
+  position: absolute;
+  top: 25%;
+  height: 80px;
+  left: 40%;
+  right: 40px;
+  width: 200px;
+  /* margin-bottom: 50px; */
+    /* background-image: url("frongPage.jpg"); */
+        /* Set a specific height */
+    /* padding: 40px; */
+    /* float: right; */
+    
+}
+
+#bod{
+    /* background-image: url("../Header_Footer/Aknana2.jpg");   */
+    /* height: 500px; */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: absolute; */
+    /* bottom: auto; */
+}
+
+
+/* styling for the error messages in  */
+.errorMessage{
+    color: red;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../modern-islamic-villa.jpg");
+  
+    /* Set a specific height */
+    height: 400px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+/* not in use currently  */
+  .AknanaDiffDiv{
+    background-image: url("../Aknana5.jpg");
+    height: 400px;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-position: center;
+
+  }
+
+  .ADiffDiv{
+    height: 250px;
+    /* background-attachment: fixed; */
+    background-color: rgba(128, 128, 128, 0.705);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding : 15px;
+    width: 100%;
+
+  }
+
+  .houseDesingHeading{
+      background-color: rgb(65, 65, 240);
+      padding: 10px;
+      top: 0px;
+      color: cornsilk;
+      width: 100%;
+  }
+  label{
+      color: white;
+  }
+
+.footer{
+        /* width: 100%; */
+        position: absolute;
+        bottom: 10px;
+        float: right;
+        /* padding-bottom: 10px; */
+  }
+
+  .footerItem{
+    position: relative;
+    display: flex;
+    padding: 10 0px;
+    float: right;
+    margin: 10;
+  }
+
+.bottomBar{
+    /* uncomment the fixed position to have the element hanging on the lower left corner */
+    position: fixed; 
+    /* position: sticky; */
+    /* position: absolute; */
+    width: 90%;
+    height: 50px;
+    bottom: 10px;
+    right:10px;
+    /* right: 60px; */
+}
+
+.designsContainer a div{
+    position: relative;
+    /* width: 200px; */
+    width: 30%;
+    height: 200px;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: gray; */
+  }
+
+  /* styling for the div that is holding the image */
+  /* .imageContainer{
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  } */
+
+  /* the section that is holding the image, title, and describtion */
+  .galleryItem{
+    padding: 15px;
+    float: left;
+    width: 44%;
+    /* width: 900px; */
+  }
+
+.gallerySection{
+  top: 650px;
+  position: relative;
+    margin-top: 100px;
+    /* margin-top: 20px; */
+    margin-left: 20px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 20%;
+  }
+
+.cartSection{
+    top: 150px;
+    position: absolute;
+      margin-top: 20px;
+      margin-left: 20px;
+      /* border: 1px solid #ccc; */
+      float: left;
+      width: 20%;
+  }
+
+  section.cartSection .imageContainer{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 200px; */
+    width: 200px;
+  }
+
+  .cartItemContainer{
+    width: 300px;
+  }
+/* #gallerySection .imageContainer{
+    grid-area: imageContainer;
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  } */
+
+section.gallerySection .imageContainer{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* margin: 5px; */
+    /* border: 1px solid #ccc; */
+    /* float: left; */
+    height: 200px;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+.hiddenInput{
+  /* width: 100%; */
+  /* height: 100px; */
+  opacity: 0;
+}
+
+    /* the text inside the section and under the image */
+.galleryText{
+        grid-area: galleryText;
+        padding: 15px;
+        height: 100px;
+        width: auto;
+        text-align: center;
+        width: 200px;
+        /* float: right; */
+      }
+
+/* the text inside the cart page*/
+.cartText{
+        position: relative;
+        top: 30%;
+        right: -400px;
+        grid-area: cartText;
+        /* padding: 20px; */
+        /* height: 50px; */
+        width: 100px;
+        width: auto;
+        text-align: center;
+        float: right;
+        /* margin-top: 40px; */
+}
+
+/* styling for the popup preview window that will show up */
+.imagePerview{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0 , 0, 0, 0.7);
+  position: fixed;
+  /* background-position: center; */
+  /* align-content: center; */
+  /* background-size: cover; */
+  justify-content: center;
+  display: flex;
+  top: 0;
+  left: 0;
+}
+
+.previewImage {
+  width: 80vh;
+  height: 60vw;
+}
+
+.miniContainer{
+  position: relative;
+  right: 0px;
+  border: 2px solid #ccc;
+  width: 150px;
+  text-align: center;
+}
+
+/* styling for the change image button in the design details page. */
+.imageChangeButton{
+height: 50px;
+width: auto;
+position: fixed;
+top: 48vh;
+display: block;
+padding: 10px;
+background-color: rgba(0 , 0, 0, 0.85);
+color: white;
+cursor: pointer;
+}
+.imageChangeButton:hover{
+  opacity: 0.7;
+}
+
+
+
+/* setting a standard styling for all buttons in the website */
+button{
+  padding: 4px 20px;
+  font-size: 15px;
+  border-radius: 5px;
+  margin-top: 5px;
+  color: white;
+  border: none;
+}
+
+/* styling the search buttons */
+#searchButton{
+  float: left;
+  justify-content: center;
+  background-color: rgb(8, 102, 156);
+}
+
+/* special styling for the signup and signin buttons */
+button.signupButton{
+  background-color: rgb(8, 102, 156);
+  color: white;
+  border: none;
+}
+
+button.signupButton:hover{
+  cursor: pointer;
+}
+
+/* settign a standard styling for the  text boxes*/
+[type="text"], [type="password"] {
+  border-radius: 5px;
+  border: none;
+  padding: 6px 6px;
+  margin-top: 5px;
+}
+
+a.tabElement:hover{
+  background-color: lightgray;
+}
+
+:-ms-input-placeholder{
+  text-align: right;
+}
+
+/* justifying the placeholder text to be on the right */
+input[type="text"]::placeholder {  
+                  
+  /* Firefox, Chrome, Opera */ 
+  text-align: right; 
+
+} 
+input[type="text"]::-ms-input-placeholder {  
+                  
+  /* Microsoft Edge */ 
+  text-align: right; 
+} 
+
+/* doing the same thing for password inputs */
+input[type="password"]::placeholder {  
+                  
+  /* Firefox, Chrome, Opera */ 
+  text-align: right; 
+
+} 
+input[type="password"]::-ms-input-placeholder {  
+                  
+  /* Microsoft Edge */ 
+  text-align: right; 
+} 
+
+/* addToCartBtn{
+  padding: 4px 20px;
+  font-size: 15px;
+  border-radius: 5px;
+  margin-top: 5px;
+  color: white;
+  border: none;
+} */
